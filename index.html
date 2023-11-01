@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week05</title>
+    <link rel="shortcut icon" 
+        href="https://www.svgrepo.com/show/209377/homework.svg" 
+        type="image/svg">
+    <style>
+        header{
+            display: flex;
+            background-color: rgb(187, 184, 184);
+            height: 100px;
+            box-sizing: border-box;
+            padding-top: 20px;
+            justify-content: center;
+        }
+        main{
+            display: flex;
+            flex-direction: row;
+            }
+        .yello{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(219, 219, 133);
+            width: 70%;
+            height: 500px;
+        }
+        .yellomain{
+            height: 50%;
+            text-align: center;
+            box-sizing: border-box;
+            padding-top: 20px;
+        }
+        .yellobottom{
+            height: 50%;
+            display: flex;
+            align-items: end;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .green{
+            background-color: rgb(96, 153, 96);
+            width: 30%;
+            height: 500px;
+            text-align: center;
+            box-sizing: border-box;
+            padding-top: 20px;
+        }
+        footer{
+            display: flex;
+            height: 150px;
+            background-color: rgb(187, 184, 184);
+            box-sizing: border-box;
+            justify-content: space-around;
+        }
+        .fsection{
+            background-color:rgb(202, 201, 201);
+            text-align: center;
+            height: 70%;
+            width: 20%;
+            box-sizing: border-box;
+            padding: 30px;
+            margin: auto;
+        }
+        .msection{
+            background-color:rgb(209, 183, 111);
+            text-align: center;
+            height: 20%;
+            width: 40%;
+            margin: 15px;
+            padding: 15px;
+        }
+        #part3{
+            width: 95%;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Шапка страницы
+    </header>
+    <main>
+        <div class="yello">
+            <div class="yellomain">Основная часть</div>
+            <div class="yellobottom">
+                <div class="msection">Еще 1</div>
+                <div class="msection">Еще 2</div>
+                <div class="msection" id="part3">Еще 3</div>
+            </div>
+        </div>
+        <div class="green">Боковая часть</div>
+    </main>
+    <footer>
+        <div class="fsection">Секция футера 1</div>
+        <div class="fsection">Секция футера 2</div>
+        <div class="fsection">Секция футера 3</div>
+        <div class="fsection">Секция футера 4</div>
+    </footer>
+</body>
+</html>
